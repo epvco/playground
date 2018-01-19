@@ -1,0 +1,82 @@
+body {
+  background-color: white;
+}
+
+h1 {
+}
+
+#top h1 {
+  text-align: center;
+}
+
+nav {
+  background-color: black;
+  padding: none;
+  margin: none;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-style: dotted;
+  border-width: 1px;
+}
+nav li {
+  float: left;
+  border-right: 1px solid black;
+}
+
+nav li:last-child {
+  border-radius: none;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 15px;
+  text-decoration: none;
+  background-color: grey;
+}
+
+nav .active {
+  background-color: lightgrey;
+  color: black;
+}
+
+nav .active a:hover {
+  color: white;
+}
+
+nav li a:hover {
+  background-color: white;
+  color: grey;
+}
+
+nav .active:hover {
+  color: black
+}
+
+#page-wrapper {
+  width: 600px;
+  margin: auto;
+  padding: none;
+  background-color: lightblue;
+}
+
+#page-wrapper h3, p {
+  margin: 15px;
+}
+
+.wrapper-foot {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  text-align: center;
+}
+
+.wrapper-foot h1, .wrapper-foot p {
+
+}
