@@ -70,6 +70,18 @@ nav .active:hover {
   margin: 15px;
 }
 
+#page-wrapper section {
+ display: flex;
+}
+
+#page-wrapper aside {
+ flex: 1
+}
+
+#page-wrapper article {
+ flex: 4
+}
+
 .wrapper-foot {
   background-color: black;
   color: white;
